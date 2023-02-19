@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdio.h>
 /**
- * main - main block
+ * main - Entry
  * Return: 0 on success
  */
 int main(void)
@@ -10,7 +10,6 @@ int main(void)
 
 	while (s <= e)
 
-	while (d < 10)
 	{
 		s1 = tmp;
 
