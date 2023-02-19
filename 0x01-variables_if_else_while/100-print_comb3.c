@@ -2,28 +2,34 @@
 #include <stdio.h>
 /**
  * main - main block
- * Return: 0
+ * Return: 0 on success
  */
 int main(void)
 {
-	int c;
-	int d = 0;
+	int s = 0, e = 8, s1 = 1, e2 = 9, tmp = 1;
+
+	while (s <= e)
 
 	while (d < 10)
 	{
-		c = 0;
-		while (c < 10)
-		{
-			putchar('0' + d);
-			putchar('0' + c);
+		s1 = tmp;
 
-			if (c + d != 17)
+		while (s1 <= e2)
+		{
+			putchar(s + '0');
+			putchar(s1 + '0');
+			s1++;
+
+			if (s != e)
 			{
 				putchar(',');
 				putchar(' ');
 			}
 		}
 
-		c++;
+		tmp++;
+		s++;
 	}
+	putchar('\n');
+	return (0);
 }
