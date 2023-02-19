@@ -22,7 +22,7 @@ int main(void)
 
 			if (num1 != num1max)
 			{
-				putchar(' ');
+				putchar(',');
 				putchar(' ');
 			}
 
